@@ -7,6 +7,7 @@ metadata:
     vm.kubevirt.io/validations: "[\n  {\n    \"name\": \"minimal-required-memory\",\n    \"path\": \"jsonpath::.spec.domain.memory.guest\",\n    \"rule\": \"integer\",\n    \"message\": \"This VM requires more memory.\",\n    \"min\": 1610612736\n  }\n]\n"
   name: 'centos-stream9-for-tilly'
   namespace: 'tilly'
+  resourceVersion: 810608
   finalizers:
     - 'kubevirt.io/virtualMachineControllerFinalize'
   labels:
