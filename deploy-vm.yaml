@@ -23,7 +23,7 @@ spec:
       kind: 'DataVolume'
       metadata:
         creationTimestamp: null
-        name: 'centos-stream9-still-cockroach'
+        name: 'centos-stream9-for-demo'
       spec:
         sourceRef:
           kind: 'DataSource'
