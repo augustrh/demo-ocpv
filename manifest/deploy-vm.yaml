@@ -5,7 +5,6 @@ metadata:
     kubevirt.io/latest-observed-api-version: 'v1'
     kubevirt.io/storage-observed-api-version: 'v1'
     vm.kubevirt.io/validations: "[\n  {\n    \"name\": \"minimal-required-memory\",\n    \"path\": \"jsonpath::.spec.domain.memory.guest\",\n    \"rule\": \"integer\",\n    \"message\": \"This VM requires more memory.\",\n    \"min\": 1610612736\n  }\n]\n"
-  resourceVersion: '680904'
   name: 'centos-stream9-for-tilly'
   namespace: 'tilly'
   finalizers:
